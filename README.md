@@ -19,3 +19,9 @@ docker run -d -it --name reviews -p 8082:9080 -e ENABLE_RATINGS=true reviews
 ```
 
 * Test with path `/reviews/1` and `/health`
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
